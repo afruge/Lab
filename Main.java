@@ -6,7 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a hexadecimal number: ");
         String input = scanner.nextLine();
-        int length = input.length();
+        int length = input.length(); //gives the length of the inputted string
         int x;
         int a;
         double b;
